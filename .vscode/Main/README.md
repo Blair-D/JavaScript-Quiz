@@ -3,6 +3,8 @@
  ## Description
   This application allows users to test their Javascript knowledge is a timed quiz.  
 
+https://github.com/Blair-D/JavaScript-Quiz
+
 *Deployed Application:* 
 
 ![image](./assets/javaScriptQuizScreenShot.png)
