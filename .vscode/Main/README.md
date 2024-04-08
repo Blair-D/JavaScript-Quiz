@@ -5,7 +5,7 @@
 
 https://github.com/Blair-D/JavaScript-Quiz
 
-*Deployed Application:* 
+*Deployed Application:* https://blair-d.github.io/JavaScript-Quiz/
 
 ![image](./assets/javaScriptQuizScreenShot.png)
 
