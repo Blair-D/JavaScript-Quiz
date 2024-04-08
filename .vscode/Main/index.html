@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="timerTitle">Time: <span id="timer"></span></div>
+    <div class="highScores"><a href="highscores.html">View Highscores</a></div>
+
+    
+
+    <div class="container">
+      <div id="homePage" class="play">
+        <h1>Javascript Quiz</h1>
+        <p>
+          Welcome to the Javascript quiz! Test your knowledge and race against the clock. Beware, incorrect answers will have a time penalty. If you are up for the challange hit play. Good Luck!
+        </p>
+        <button id="play">Play</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="gameOver" class="hide">
+        <h2 class="gameOver text-center">Game Over</h2>
+        <p>You scored <span id="playersScore"></span>.</p>
+        <p>
+          Enter your initials: <input type="text" id="playersIntls" max="5" />
+          <button id="save">Save</button>
+        </p>
+      </div>
+
+      <div id="inform" class="inform hide"></div>
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/game.js"></script>
+  </body>
+</html>
